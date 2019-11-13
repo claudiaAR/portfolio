@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+/*Animation bakgrund*/
+.permanenta_animation{
+  background: white;
+  animation: back 6s ease-in infinite alternate;
+}
+
+@keyframes back {
+  from {
+      background: #2fbc98;
+  }
+
+  to {
+      background: #ad73e9;
+  }
+}
+
+.flik{
+  position: absolute;
+  bottom: 1;
+  top: 0;
+  left: 0;
+  right: 1;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  
+}
+
+.next{
+  background: #ffdd00;
+}
+
+.now{
+  background: #ad73e9;
+}
+
+.relative-container {
+  position: relative;
+}
+
+h3 {
+  line-height: 3rem;
+}
+
+p {
+  max-width: 30rem;
+}
+
+
+
+/*Animation text*/
+.span_animation {
+  line-height: 3rem;
+  color: #ad73e9;
+  animation: mer 3s ease-in infinite alternate;
+  font-size: 1rem;
+}
+
+@keyframes mer {
+  from {
+      color: #2fbc98;
+  }
+
+  to {
+      color: #ad73e9;
+  }
+}
+

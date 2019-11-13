@@ -1,0 +1,37 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.landing-services__service{
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: calc( ((100% - (2 * 40px)) / 3) + (2 * 40px));
+    width: calc( 100% + ( ((100% - (2 * 40px)) / 3) + (2 * 40px) ));
+    will-change: transform;
+    background: plum;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
