@@ -48,22 +48,17 @@ main{
   position: relative;
 
 }
-  
-
 
 .hedline_text {
   display: flex;
-  -ms-flex-item-align: center;
-  height: 100vh;
   justify-content: center;
   align-items: center;
   /*hsl(hue, saturation, lightness).*/
   color: hsl(0, 0%,15%) ;
-  top:-20;
- 
-  margin-left:10rem 0 0 18rem; 
+  margin-top: 2rem;
+  margin-right:10rem;
 }
-p {
+.top_text {
   font-family: 'helvetica';
   font-weight: bold;
   text-transform: uppercase;
@@ -99,6 +94,6 @@ you can use (3n+0) to hit every third in the index order*/
 .line:nth-child(4) {
   left: 87px;
 }
-.wrap:hover .line p {
+.wrap:hover .line .top_text {
   transform: translate(0, -50px);
 }
