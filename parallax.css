@@ -63,13 +63,15 @@
 .parallax__layer__6 {
     transform: translateZ(0px) scale(1);
 }
- 
+
+@media screen and (max-width: 900px) {
+    .parallax {
+        height: 70vh;
+   }
+}
 @media screen and (max-width: 600px) {
     .parallax {
-        perspective: 6.25rem;
-        height: 100vh;
-        left: 50%;
-        margin-left: -93.75rem;
+        height: 100vh; 
    }
    
    
