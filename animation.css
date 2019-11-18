@@ -13,11 +13,11 @@
 
 @keyframes back {
   from {
-      background: #2fbc98;
+      background: #5553ec;
   }
 
   to {
-      background: #ad73e9;
+      background: #f1a9a9;
   }
 }
 
@@ -29,7 +29,7 @@
   right: 1;
   font-weight: bold;
   padding: 1rem 1.5rem;
-  
+  font-family: 'helvetica';
 }
 
 .next{
