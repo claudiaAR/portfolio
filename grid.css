@@ -3,10 +3,12 @@
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: auto;
     background:whitesmoke;
+    position: absolute;
+    height: 100vh;
     /*Här styr vi layouten på sidan*/
     grid-template-areas:
-        "content_1          content_text_1"
-        "content_text_2     content_2"
+        "content_1          content_img_1"
+        "content_img_2      content_2"
         "content_3          content_text_3"
         "content_text_4     content_4"
         "content_5          content_text_5"
@@ -15,13 +17,12 @@
 
 .content_1 {
     grid-area: content_1;
+   
 }
 
-.content_text_1 {
-    grid-area: content_text_1;
-    display: grid;
-    background: whitesmoke;
-    padding: 5rem;
+.content_img_1 {
+    grid-area: content_img_1;
+ 
 }
 
 .content_2 {
@@ -31,8 +32,8 @@
     flex-grow: 1;
 }
 
-.content_text_2 {
-    grid-area: content_text_2;
+.content_img_2 {
+    grid-area: content_img_2;
     display: grid;
     background: whitesmoke;
     padding: 5rem;
@@ -89,6 +90,9 @@
     padding: 5rem;
 }
 
+.image_set_to_width{
+   width: 100vw;
+}
 
 
 @media only screen and (max-width: 1100px) {
@@ -103,11 +107,11 @@
     .two_box_grid {
         display: flex;
         flex-direction: column;
-        background-color:whitesmoke;
+       
     }
 
 }
-@media only screen and (max-width: 450px) {
+/* @media only screen and (max-width: 450px) {
     .content_text_1 {
         padding: 4rem 3rem ;
     }
@@ -127,4 +131,4 @@
     .content_text_6 {
         padding: 4rem 3rem ;
     }
-} 
+}  */
