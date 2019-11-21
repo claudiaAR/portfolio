@@ -119,23 +119,16 @@ button:focus{
         display: flex;
         flex-direction: column;
     }
-
-
-
 }
 
 @media only screen and (max-width: 900px) {
     .two_box_grid {
         display: flex;
         flex-direction: column;
-        background-color: #2fbc98;
     }
     button{
         padding:0.5rem;
-      
     }
-    
-
 }
 @media only screen and (max-width: 450px) {
     .content_text_1 {
