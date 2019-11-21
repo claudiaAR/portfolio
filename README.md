@@ -4,14 +4,14 @@
 --> [PAGE](https://claudiaar.github.io/portfolio/) <--
 
 ```bash
-Take a look at the GitHub Page for my porfolio
+Take a look at the GitHub Page => my porfolio
 ```
 ## GitHub repo
 
 --> [REPO](https://github.com/claudiaAR/portfolio) <--
 
 ```bash
-Take a look at the GitHub Page for my porfolio
+Take a look at the GitHub Page => my porfolio
 ```
 
 ## Uppgift
