@@ -11,7 +11,7 @@ Take a look at the GitHub Page => my porfolio
 --> [REPO](https://github.com/claudiaAR/portfolio) <--
 
 ```bash
-Take a look at the GitHub Page => my porfolio
+Take a look at the GitHub Repo => my porfolio
 ```
 
 ## Uppgift
