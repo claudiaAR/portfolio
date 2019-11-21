@@ -1,34 +1,74 @@
 window.addEventListener('load', loadPage)
 
+
 function loadPage(){
-    applyRandomColorsToTextBorder()
-    randomizeColor()
-    randomizeColorRGB()
+    hex()
+    rgb()
+    hex3()
+    rgb4()
 }
 
 /**
  * 
+ * Identifies the elements that will be changed 
+ * border changes the color and the rbg value gets printed in the button
+ * repets this function in four different borders
+ * 
  */
- function applyRandomColorsToTextBorder() {
-  const hexBorder = document.querySelector('.content_text_1')
+function rgb(){
   const rgbBorder = document.querySelector('.content_text_2')
-  const hexText = document.getElementById('box1-h3')
-  const rgbText = document.getElementById('box2-h3')
- 
-  const firstColor = randomizeColor()
-  hexBorder.style.borderColor = firstColor
-  hexText.innerText = firstColor
-  
-  const secondColor = randomizeColorRGB()
-  rgbBorder.style.borderColor = secondColor
-  rgbText.innerText = secondColor 
+  const rgbText = document.getElementById('rgb_button')
+
+  rgbText.onclick = () => {
+    const rbgColor = randomizeColorRGB()
+    rgbBorder.style.borderColor = rbgColor
+    rgbText.innerText = rbgColor 
+  }
 }
 
+function hex(){
+  const hexText = document.getElementById('hex_button')
+  const hexBorder = document.querySelector('.content_text_1')
 
-  
+  hexText.onclick = () =>{
+    const hexColor = randomizeColor()
+    hexBorder.style.borderColor = hexColor
+    hexText.innerText = hexColor
+  }
+}
+
+function hex3(){
+  const hexText2 = document.getElementById('hex_button_3')
+  const hexBorder2 = document.querySelector('.content_text_3')
+
+  hexText2.onclick = () =>{
+    const hexColor = randomizeColor()
+    hexBorder2.style.borderColor = hexColor
+    hexText2.innerText = hexColor
+  }
+}
+
+function rgb4(){
+  const rgbBorder = document.querySelector('.content_text_4')
+  const rgbText = document.getElementById('rgb_button_4')
+
+  rgbText.onclick = function(){
+    const rbgColor = randomizeColorRGB()
+    rgbBorder.style.borderColor = rbgColor
+    rgbText.innerText = rbgColor 
+  }
+}
+
 /**
- * exporting a HEX value to randomizeColor function
+ * exporting a HEX value 
+ * 
  */
+
+ /**
+ * An object that defined part of what is returned in the day
+ * @typedef  {{letter: String, color: number}}
+ */
+
 function randomizeColor() {
   const letters = '0123456789ABCDEF'
   let color = '#'
@@ -40,7 +80,7 @@ function randomizeColor() {
 }
 
 /**
- * exporting a rgb value to randomizeColorRGB function
+ * exporting a rgb value 
  */
 function randomizeColorRGB() {
   const redValue = Math.round(Math.random() * 255)
@@ -50,13 +90,14 @@ function randomizeColorRGB() {
 }
 
 /**
+ * 
  * toggles a span tag
  */
 
 $(document).ready(function(){
   
   $('span').click(function(){
-      $('.toggle_text').fadeToggle(100)
+      $('.toggle_text').fadeToggle(10)
   })
 })
 

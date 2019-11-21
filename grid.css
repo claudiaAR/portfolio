@@ -59,6 +59,12 @@
     display: grid;
     background: whitesmoke;
     padding: 5rem;
+    padding: 5rem;
+    font-family: 'helvetica';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+    border: solid #5553ec 1rem; 
 }
 
 .content_4{
@@ -73,6 +79,13 @@
     display: grid;
     background: whitesmoke;
     padding: 5rem;
+    padding: 5rem;
+    font-family: 'helvetica';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+    border: solid #5553ec 1rem; 
+}
 }
 
 .content_5 {
@@ -84,6 +97,11 @@
     display: grid;
     background: whitesmoke;
     padding: 5rem;
+    padding: 5rem;
+    
+    font-family: 'helvetica';
+    font-size: 22px;
+    border: solid #5553ec 1rem; 
 }
 
 .content_6 {
@@ -98,6 +116,13 @@
     display: grid;
     background: whitesmoke;
     padding: 5rem;
+    padding: 5rem;
+    font-family: 'helvetica';
+    font-weight: bold;
+    
+    text-transform: uppercase;
+    font-size: 32px;
+    border: solid #5553ec 1rem; 
 }
 
 button{

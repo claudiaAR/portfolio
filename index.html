@@ -13,7 +13,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"/>
-
+    
+    
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script defer src="main.js"></script>
   </head>
@@ -45,33 +46,33 @@
     
 
         <div class="parallax__layer parallax__layer__0">
-          <img src="bilder/parallax_bg/layer_0.png" />
+          <img src="bilder/parallax_bg/layer_0.png" alt="parallax layers" />
         </div>
         <div class="parallax__layer parallax__layer__1">
-          <img src="bilder/parallax_bg/layer_1.png" />
+          <img src="bilder/parallax_bg/layer_1.png" alt="parallax layers" />
         </div>
         <div class="parallax__layer parallax__layer__2">
-          <img src="bilder/parallax_bg/layer_2.png" />
+          <img src="bilder/parallax_bg/layer_2.png" alt="parallax layers" />
         </div>
         <div class="parallax__layer parallax__layer__3">
-          <img src="bilder/parallax_bg/layer_3.png" />
+          <img src="bilder/parallax_bg/layer_3.png" alt="parallax layers" />
         </div>
         <div class="parallax__layer parallax__layer__4">
-          <img src="bilder/parallax_bg/layer_4.png" />
+          <img src="bilder/parallax_bg/layer_4.png" alt="parallax layers" />
         </div>
         <div class="parallax__layer parallax__layer__5">
-          <img src="bilder/parallax_bg/layer_5.png" />
+          <img src="bilder/parallax_bg/layer_5.png" alt="parallax layers" />
         </div>
         <div class="parallax__layer parallax__layer__6">
-          <img src="bilder/parallax_bg/layer_6.png" />
+          <img src="bilder/parallax_bg/layer_6.png" alt="parallax layers" />
         </div>
         <div class="parallax__cover"></div>
       </div>
       <!--End of parallax div wrapper-->
     </header>
     <img class="mobil_cover" src="bilder/cover_mobile.png" alt="collage bild med rubrik - Claudia aranda frontend">
-    <main class="new_block">
-      
+    
+    <main class="new_block">  
       <div class="two_box_grid">
         <figure class="content_1">
           <a href="https://claudiaar.github.io/game/"><img class="image_set_to_width" src="bilder/zombie_game.png" alt="backgrunden är skog och en text med på början av spelet" /></a>
@@ -86,9 +87,9 @@
             </p>
             
             <div>
-              <a href="https://claudiaar.github.io/game/"><button class="permanenta_animation"><p class="span_animation">SHOW PAGE</p></button></a>
+              <a href="https://claudiaar.github.io/game/"> <button class="permanenta_animation"><p class="span_animation">SHOW PAGE</p></button></a>
               <a href=" https://github.com/claudiaAR/game"><button class="permanenta_animation"><p class="span_animation">&nbsp&nbsp&nbsp&nbspGitHub&nbsp&nbsp&nbsp&nbsp</p></button></a>
-              <button class="permanenta_animation" onclick="applyRandomColorsToTextBorder()"> <p id="box1-h3" class="span_animation">HEX IT</p></button>
+              <button class="permanenta_animation"> <p id="hex_button" class="span_animation">HEX IT</p></button>
             </div>
           </article>
         
@@ -97,25 +98,27 @@
         </figure>
 
         <article class="content_text_2">
-          <h1>Skol projekt</h1>
+          <h1>Claudia aranda</h1>
           <span>Läs mer &gt;</span>
          
           <p class="toggle_text">
-            Uppdrag - Introduktion till Canvas
+              Hej, jag heter Claudia och hoppas kunna jobba som frontend utvecklare i framtiden. Just nu studerar jag på Medieinstitutets Frontend Yh-utbildning.
+              Det jag gillar mest med utveckling är att det finns oändligt med möjligheter och att man därför aldrig slutar lära sig nya och spännande saker. Jag 
+              gillar även att det är en stor och hjälpsam community där man kan mäta sina skills genom att se om man kan lära och hjälpa andra.
           </p>
           <div>
-            <a href="https://claudiaar.github.io/canvas/"><button class="permanenta_animation"><p class="span_animation">SHOW PAGE</p></button></a>
-            <a href="https://github.com/claudiaAR/canvas"><button class="permanenta_animation"><p class="span_animation">&nbsp&nbsp&nbsp&nbspGitHub&nbsp&nbsp&nbsp&nbsp</p></button></a>
-            <button class="permanenta_animation" onclick="applyRandomColorsToTextBorder()"> <p id="box2-h3" class="span_animation">RGB IT</p></button>
+            <a href="mailto:claudia.aranda@medieinstitutet.se"><button class="permanenta_animation"><p class="span_animation">Kontakta mig</p></button></a>
+            <a href="https://github.com/claudiaAR"><button class="permanenta_animation"><p class="span_animation">&nbsp&nbsp&nbsp&nbspGitHub&nbsp&nbsp&nbsp&nbsp</p></button></a>
+            <button class="permanenta_animation" > <p id="rgb_button" class="span_animation">RGB IT</p></button>
           </div>
         </article>
       </div>
 
       <div class="two_box_grid">
-        <figure class="content_1">
+        <figure class="content_3">
           <img class="image_set_to_width" src="bilder/cykel.png" alt="tre personer som poddar"/>
         </figure>
-        <article class="content_text_1">
+        <article class="content_text_3">
           <h1>XD design</h1>
           <span>Läs mer &gt;</span>
          
@@ -124,27 +127,32 @@
             användarvänligt och jag upplevde att designen kunnde förbättras därför gjorde jag denna mockup.
           </p>
           <div>
-            <button class="permanenta_animation" onclick="applyRandomColorsToTextBorder()"> <p id="box1-h3" class="span_animation">HEX IT</p></button>
+            <button class="permanenta_animation"> <p id="hex_button_3" class="span_animation">HEX IT</p></button>
           </div>
         </article>
 
-        <figure class="content_2">
+        <figure class="content_4">
             <a href="https://www.grafikivast.se/search/?q=claudia"><img class="image_set_to_width" src="bilder/grafik_1.png" alt="photopolymer djuptryck" /></a>
         </figure>
 
-        <article class="content_text_2">
+        <article class="content_text_4">
           <h1>Grafik</h1>
           <br />
-          <span class="span_animation">Läs mer &gt;</span>
-          <p>
+          <span>Läs mer &gt;</span>
+          <p class="toggle_text">
             Konst - Grafiska blad som finns på grafik i väst.
           </p>
           <div>
               <a href="https://www.grafikivast.se/search/?q=claudia"><button class="permanenta_animation"><p class="span_animation">Grafik i Väst</p></button></a>
-              <button class="permanenta_animation" onclick="applyRandomColorsToTextBorder()"> <p id="box1-h3" class="span_animation">HEX IT</p></button>
+              <button class="permanenta_animation"> <p id="rgb_button_4" class="span_animation">RGB IT</p></button>
             </div>
         </article>
       </div>
+
+      </div>
+
+   
+    
     </main>
 
     <artical class="new_block">
@@ -349,7 +357,7 @@
           <div class="permanenta_animation text flik relative-container">
             diverse <br />jobb
           </div>
-          <img class="card_image" src="bilder/parallax/sol.png" alt="potatisTryck"/>
+          <img class="card_image" src="bilder/sol.png" alt="potatisTryck"/>
           <div class="card_info">
             <h1>2002-2012</h1>
             <h3>Timanställningar/sommarjobb</h3>
