@@ -1,19 +1,34 @@
+window.addEventListener('load', loadPage)
 
- function applyRandomColorsToTheBoxes() {
-  const content_text_1 = document.querySelector('.content_text_1')
-  const content_text_2 = document.querySelector('.content_text_2')
-  const box1h3 = document.getElementById('box1-h3')
-  const box2h3 = document.getElementById('box2-h3')
+// function loadPage(){
+//     applyRandomColorsToTextBorder()
+//     randomizeColor()
+//     randomizeColorRGB()
+// }
+
+/**
+ * 
+ */
+ function applyRandomColorsToTextBorder() {
+  const hexBorder = document.querySelector('.content_text_1')
+  const rgbBorder = document.querySelector('.content_text_2')
+  const hexText = document.getElementById('box1-h3')
+  const rgbText = document.getElementById('box2-h3')
  
   const firstColor = randomizeColor()
-  content_text_1.style.borderColor = firstColor
-  box1h3.innerText = firstColor
-
+  hexBorder.style.borderColor = firstColor
+  hexText.innerText = firstColor
+  
   const secondColor = randomizeColorRGB()
-  content_text_2.style.borderColor = secondColor
-  box2h3.innerText = secondColor 
+  rgbBorder.style.borderColor = secondColor
+  rgbText.innerText = secondColor 
 }
 
+
+  
+/**
+ * exporting a HEX value to randomizeColor function
+ */
 function randomizeColor() {
   const letters = '0123456789ABCDEF'
   let color = '#'
@@ -24,6 +39,9 @@ function randomizeColor() {
   return color;
 }
 
+/**
+ * exporting a rgb value to randomizeColorRGB function
+ */
 function randomizeColorRGB() {
   const redValue = Math.round(Math.random() * 255)
   const greenValue = Math.round(Math.random() * 255)

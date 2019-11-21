@@ -124,20 +124,13 @@ you can use (3n+0) to hit every third in the index order*/
   transform: translate(0, -50px);
 }
 @media only screen and (max-width: 900px) {
-
   .hedline_text{
     margin-right:-63rem;
     margin-top: 4rem;
   }
-  body{
-    background: hotpink;
-  }
 }
 
 @media only screen and (max-width: 600px) {
-  body{
-    background: yellow;
-  }
   .hedline_text {
     margin-right:-70rem;
   }

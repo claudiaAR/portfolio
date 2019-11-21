@@ -1,3 +1,7 @@
+.mobil_cover{
+    display: none;
+}
+
 .parallax {
 	 perspective: 6.25rem;
      height: 100vh;
@@ -77,5 +81,8 @@
 @media screen and (max-width: 600px) {
     .parallax{
         margin-left: -75.75rem; 
+    }
+    .mobil_cover{
+        width: 100vw;
     }
   }
