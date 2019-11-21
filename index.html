@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"/>
 
-    <script defer src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script defer src="main.js"></script>
   </head>
 
@@ -74,11 +74,11 @@
       
       <div class="two_box_grid">
         <figure class="content_1">
-          <a href="https://claudiaar.github.io/game/"><img class="image_set_to_width" src="bilder/zombie_game.png" alt="" /></a>
+          <a href="https://claudiaar.github.io/game/"><img class="image_set_to_width" src="bilder/zombie_game.png" alt="backgrunden är skog och en text med på början av spelet" /></a>
         </figure>
 
           <article class="content_text_1">
-            <h1>Skol projekt</h1>
+            <h1 class="move_in_right">Skol projekt</h1>
             <span>Läs mer &gt;</span>
             <br />
             <p class="toggle_text">
@@ -93,7 +93,7 @@
           </article>
         
         <figure class="content_2">
-          <a href="https://claudiaar.github.io/canvas/"><img class="image_set_to_width" src="bilder/canvas.png" alt="" /></a>
+          <a href="https://claudiaar.github.io/canvas/"><img class="image_set_to_width" src="bilder/canvas.png" alt="bild på en cirkel med sträck." /></a>
         </figure>
 
         <article class="content_text_2">
@@ -129,19 +129,20 @@
         </article>
 
         <figure class="content_2">
-          <img class="image_set_to_width" src="bilder/berg_bild.png" alt="" />
+            <a href="https://www.grafikivast.se/search/?q=claudia"><img class="image_set_to_width" src="bilder/grafik_1.png" alt="photopolymer djuptryck" /></a>
         </figure>
 
         <article class="content_text_2">
-          <h1>Design</h1>
+          <h1>Grafik</h1>
           <br />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
-            consectetur cupiditate eveniet iste officia dolores expedita, fugiat
-            ipsam labore, doloribus iusto officiis ut. Minima veniam distinctio
-            quidem porro blanditiis ipsam!
-          </p>
           <span class="span_animation">Läs mer &gt;</span>
+          <p>
+            Konst - Grafiska blad som finns på grafik i väst.
+          </p>
+          <div>
+              <a href="https://www.grafikivast.se/search/?q=claudia"><button class="permanenta_animation"><p class="span_animation">Grafik i Väst</p></button></a>
+              <button class="permanenta_animation" onclick="applyRandomColorsToTextBorder()"> <p id="box1-h3" class="span_animation">HEX IT</p></button>
+            </div>
         </article>
       </div>
     </main>
@@ -151,10 +152,10 @@
 
       <div class="card-wrapper">
         <div class="card" class="card_studier">
-          <div class="permanenta_animation flik relative-container">
+          <div class="permanenta_animation text flik relative-container">
             MEDIEINSTITUTET
           </div>
-          <img class="card_image" src="bilder/parallax/sol.png" alt=" " />
+          <img class="card_image" src="bilder/logo/medieinstitutet_logo.png" alt="Medieinstitutet logo" />
           <div class="card_info">
             <h1>2019-2021</h1>
             <h3>Frondend utveckling</h3>
@@ -165,11 +166,16 @@
 
       <div class="card-wrapper">
         <div class="card" class="card_studier">
-          <div class="permanenta_animation flik relative-container">
+
+  <div class="permanenta_animation text flik relative-container">
             Högskolan&nbspVäst
           </div>
-          <img class="card_image" src="bilder/parallax/sol.png" alt=" " />
+          <br>
+          <br>
+          <img class="card_image" src="bilder/logo/2.-svensk-logotyp-jpg.jpg" alt="Högskolan Väst logo" />
           <div class="card_info">
+            <br>
+            <br>
             <h1>2018-2019</h1>
             <h3>Webbdesign</h3>
             <p>Kurspaket distansutblidning</p>
@@ -179,10 +185,10 @@
 
       <div class="card-wrapper">
         <div class="card" class="card_studier">
-          <div class="permanenta_animation flik relative-container">
+          <div class="permanenta_animation  text flik relative-container">
             &nbsp&nbsp&nbspHDK&nbsp&nbsp&nbsp
           </div>
-          <img class="card_image" src="bilder/parallax/sol.png" alt=" " />
+          <img class="card_image" src="bilder/logo/gbg_universitet.png" alt="Göteborgs Univeritet logo" />
           <div class="card_info">
             <h1>2016</h1>
             <h3>Adobe creative suites</h3>
@@ -192,13 +198,13 @@
 
       <div class="card-wrapper">
         <div class="card" class="card_studier">
-          <div class="permanenta_animation flik relative-container">
+          <div class="permanenta_animation text flik relative-container">
             &nbsp&nbsp&nbspHDK&nbsp&nbsp&nbsp
           </div>
-          <img class="card_image" src="bilder/parallax/sol.png" alt=" " />
+          <img class="card_image" src="bilder/logo/gbg_universitet.png" alt="Göteborgs Univeritet logo" />
           <div class="card_info">
             <h1>2011</h1>
-            <h3>Usttällningsdesign</h3>
+            <h3>Utställningsdesign</h3>
             Grafik Valand
           </div>
         </div>
@@ -206,10 +212,10 @@
 
       <div class="card-wrapper">
         <div class="card" class="card_studier">
-          <div class="permanenta_animation flik relative-container">
+          <div class="permanenta_animation text flik relative-container">
             &nbsp&nbsp&nbspvaland&nbsp&nbsp&nbsp
           </div>
-          <img class="card_image" src="bilder/parallax/sol.png" alt=" " />
+          <img class="card_image" src="bilder/logo/gbg_universitet.png" alt="Göteborgs Univeritet logo" />
           <div class="card_info">
             <h1>2010</h1>
             <h3>Grafik</h3>
@@ -219,10 +225,16 @@
 
       <div class="card-wrapper">
         <div class="card" class="card_studier">
-          <div class="permanenta_animation flik relative-container">
+          <div class="permanenta_animation text flik relative-container">
             Gbg&nbspKonstskola
           </div>
-          <img class="card_image" src="bilder/parallax/sol.png" alt=" " />
+          <br>
+          <br>
+          <br>
+          <img class="card_image" src="bilder/logo/GK_2019.png" alt="Göteborgs Konstskola logo" />
+          <br>
+          <br>
+          <br>
           <div class="card_info">
             <h1>2007-2008</h1>
             <h3>Konstnärlig idégestaltning</h3>
@@ -232,24 +244,33 @@
 
       <div class="card-wrapper">
         <div class="card" class="card_studier">
-          <div class="permanenta_animation flik relative-container">
+          <div class="permanenta_animation text flik relative-container">
             Gbg&nbspKonstskola
           </div>
-          <img class="card_image" src="bilder/parallax/sol.png" alt=" " />
+          <br>
+          <br>
+          <br>
+          <img class="card_image" src="bilder/logo/GK_2019.png" alt="Göteborgs Konstskola logo" />
+          <br>
+          <br>
+          <br>
           <div class="card_info">
             <h1>2005-2007</h1>
             <h3>Grundutbildning i grafik</h3>
+
           </div>
         </div>
       </div>
 
       <div class="card-wrapper">
         <div class="card" class="card_studier">
-          <div class="permanenta_animation flik relative-container">
+          <div class="permanenta_animation text flik relative-container">
             kv&nbspKonstskola
           </div>
-          <img class="card_image" src="bilder/parallax/sol.png" alt=" " />
-          <div class="card_info">
+          <br>
+        <img class="card_image" src="bilder/logo/kv_logga_foter_svart1.jpg" alt="KV konstskola logo " />
+        <br>
+        <div class="card_info">
             <h1>2004-2005</h1>
             <h3>Konstnärlig grundutbildning</h3>
           </div>
@@ -258,10 +279,15 @@
 
       <div class="card-wrapper">
         <div class="card" class="card_studier">
-          <div class="permanenta_animation flik relative-container">
+          <div class="permanenta_animation text flik relative-container">
             Medieprogrammet
           </div>
-          <img class="card_image" src="bilder/parallax/sol.png" alt=" " />
+          <br>
+          <br>
+          <br>
+          <img class="card_image" src="bilder/logo/mark-skola-logo.svg" alt="kunskapenshus logo" />
+          <br>
+          <br>
           <div class="card_info">
             <h1>1999-2002</h1>
             <h3>Gymnasium</h3>
@@ -274,10 +300,14 @@
       <h4 class="card_side_headline">&nbsp&nbsp&nbspjobb&nbsp&nbsp&nbsp</h4>
       <div class="card-wrapper">
         <div class="card" class="card_jobb">
-          <div class="permanenta_animation flik relative-container">
+          <div class="permanenta_animation text flik relative-container">
             Göteborgs stadsmuseum
           </div>
-          <img class="card_image" src="bilder/parallax/sol.png" alt=" " />
+          <br>
+          <br>
+          <img class="card_image" src="bilder/logo/GSM_logo.png" alt="Göteborgs Stadsmuseet logo" />
+          <br>
+          <br>
           <div class="card_info">
             <h1>2014-nu</h1>
             <h3>Museivärd</h3>
@@ -288,14 +318,10 @@
 
       <div class="card-wrapper">
         <div class="card" class="card_jobb">
-          <div class="permanenta_animation flik relative-container">
+          <div class="permanenta_animation text flik relative-container">
             Röhsska <br />museum
           </div>
-          <img
-            class="card_image"
-            src="bilder/parallax/sol.png"
-            alt="en kvinnlig fotomodel i rullstol"
-          />
+          <img class="card_image" src="bilder/logo/röhsska_logo.jpeg" alt="Röhsska Museet logo"/>
           <div class="card_info">
             <h1>2010-2013</h1>
             <h3>Museivärd</h3>
@@ -306,14 +332,10 @@
 
       <div class="card-wrapper">
         <div class="card" class="card_jobb">
-          <div class="permanenta_animation flik relative-container">
+          <div class="permanenta_animation text flik relative-container">
             bar <br />italia
           </div>
-          <img
-            class="card_image"
-            src="bilder/parallax/sol.png"
-            alt="en kvinnlig fotomodel i rullstol"
-          />
+          <img class="card_image" src="bilder/logo/barItalia_logo.jpg" alt="Bar Italia logo"/>
           <div class="card_info">
             <h1>2008-2013</h1>
             <h3>Barista</h3>
@@ -324,14 +346,10 @@
 
       <div class="card-wrapper">
         <div class="card" class="card_jobb">
-          <div class="permanenta_animation flik relative-container">
+          <div class="permanenta_animation text flik relative-container">
             diverse <br />jobb
           </div>
-          <img
-            class="card_image"
-            src="bilder/parallax/sol.png"
-            alt="en kvinnlig fotomodel i rullstol"
-          />
+          <img class="card_image" src="bilder/parallax/sol.png" alt="potatisTryck"/>
           <div class="card_info">
             <h1>2002-2012</h1>
             <h3>Timanställningar/sommarjobb</h3>

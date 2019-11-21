@@ -1,10 +1,10 @@
 window.addEventListener('load', loadPage)
 
-// function loadPage(){
-//     applyRandomColorsToTextBorder()
-//     randomizeColor()
-//     randomizeColorRGB()
-// }
+function loadPage(){
+    applyRandomColorsToTextBorder()
+    randomizeColor()
+    randomizeColorRGB()
+}
 
 /**
  * 
@@ -59,3 +59,4 @@ $(document).ready(function(){
       $('.toggle_text').fadeToggle(100)
   })
 })
+

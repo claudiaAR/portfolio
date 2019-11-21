@@ -16,7 +16,7 @@ main{
   width:100%;
 }
 .new_block{
-  background:linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(238,240,227,1) 56%, rgba(238,240,227,1) 68%, rgba(238,240,227,1) 100%);
+  background: whitesmoke;
   display: flex;
   overflow-x: auto;
   width: 100vw;
@@ -36,14 +36,6 @@ main{
   display: flex;
  }
 
- .card_studier{
-  background: rgb(228, 39, 39);
- }
-
- .card_jobb{
-  background: rgb(7, 24, 37);
-  color: rgb(231, 231, 231);
- }
 
  .card{
   display: flex;
