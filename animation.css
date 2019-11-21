@@ -1,16 +1,16 @@
 /*Animation bakgrund*/
 .permanenta_animation{
   background: white;
-  animation: back 6s ease-in infinite alternate;
+  animation: back 12s ease-in infinite alternate;
 }
 
 @keyframes back {
   from {
-      background: #5553ec;
+      background: #020024;
   }
 
   to {
-      background: #f1a9a9;
+      background: #5553ec;
   }
 }
 
@@ -41,8 +41,8 @@
 .span_animation {
   line-height: 3rem;
   color: #ad73e9;
-  animation: mer 3s ease-in infinite alternate;
-  font-size: 1rem;
+  animation: mer 9s ease-in infinite alternate;
+  
 }
 
 @keyframes mer {
@@ -51,7 +51,7 @@
   }
 
   to {
-      color: #ad73e9;
+      color: #02b9de;
   }
 }
 

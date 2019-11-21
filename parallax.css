@@ -30,7 +30,7 @@
     z-index: 20;
     height: 20rem;
     display: block;
-    position: relative;
+    position: absolute;
     background:
     linear-gradient(135deg, #010101 25%, transparent 25%) -50px 0,
     linear-gradient(225deg, #010101 25%, transparent 25%) -50px 0,
@@ -62,11 +62,7 @@
     transform: translateZ(0px) scale(1);
 }
 
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-      background-attachment: scroll;
-    }
-  }
+
 
 @media screen and (max-width: 900px) {
     .parallax__cover {
@@ -74,15 +70,12 @@
         height: 20rem;
         z-index: 20;
     }
+    .parallax{
+        margin-left: -70.75rem; 
+    }
 }
 @media screen and (max-width: 600px) {
-    /* body{
-        background: yellow;
-        height: 100vh; */
+    .parallax{
+        margin-left: -75.75rem; 
     }
-  
-   
-   
- 
- 
   }

@@ -17,11 +17,11 @@ main{
 }
 .new_block{
   background:linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(238,240,227,1) 56%, rgba(238,240,227,1) 68%, rgba(238,240,227,1) 100%);
-  
   display: flex;
   overflow-x: auto;
   width: 100vw;
   position: relative;
+  overflow-y:hidden ;
 }
 .card_side_headline{
   transform: rotate(270deg);
@@ -70,11 +70,6 @@ main{
   margin-top: 1rem;
 }
 
-
-
-  
-
-
 p{
   line-height: 2rem;
 }
@@ -97,6 +92,7 @@ p{
   line-height: 50px;
   margin: 0;
   transition: all .5s ease-in-out;
+  z-index:1000;
 }
 
 .line {
@@ -130,11 +126,19 @@ you can use (3n+0) to hit every third in the index order*/
 @media only screen and (max-width: 900px) {
 
   .hedline_text{
-    margin-right:-53rem;
+    margin-right:-63rem;
     margin-top: 4rem;
   }
   body{
     background: hotpink;
-    
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background: yellow;
+  }
+  .hedline_text {
+    margin-right:-70rem;
   }
 }
